@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="js/rate.js"></script>
+  <title>Rate</title>
+</head>
+<body>
+
+  <header>
+  </header>
+
+  <h1 style="color: blueviolet;">Currency Updater</h1>
+
+  <div style="display: flex; align-items: center;">
+    <button style="font-size: 20px; width:140px; padding: 20px; margin-right: 20px;" id="myinit"><strong>Initialize</strong></button><br>
+    <span style="font-size:20px;" id="myonline">Online rate: OFF</span>
+</div>
+
+  <h2>Country:</h2>
+  <div>
+    <select style="font-size:20px;" name="Country" id="mycountries" disabled></select>
+  </div>
+
+  <h2>Turnover:</h2>
+  <div style="display: flex;">
+    <input style="font-size: 20px; width: 200px; padding:20px; margin-right: 10px;" name="Turnover" id="myturnover" disabled></input>
+    <select style="font-size: 20px; width: 100px; text-align: center; margin-right: 10px;" name="Currency" id="mycurrencies" disabled></select>
+    <button style="display:disabled; font-size: 20px; width: 140px; padding: 20px;" id="myexchange" disabled><strong>Exchange</strong></button>
+  </div>
+
+  <br><button style="font-size: 20px; width: 140px; padding: 20px;" id="myreset"><strong>Reset</strong></button><br>
+  <br><div style="font-size:20px;"><strong>Github: </strong><a href="https://github.com/adurand33" target="_blank">https://github.com/adurand33</a></div>
+
+  <footer>
+  </footer>
+
+</body>
+</html>
