@@ -29,6 +29,7 @@ function createCountries() {
   obj = {world: "AU", name: "Australia", nameFr: "Australie"}; listOfCountries.push(obj); // code = 36
   obj = {world: "AT", name: "Austria", nameFr: "Autriche"}; listOfCountries.push(obj); // code = 40
   obj = {world: "BE", name: "Belgium", nameFr: "Belgique"}; listOfCountries.push(obj); // code = 56
+  obj = {world: "BR", name: "Brasil", nameFr: "Brésil"}; listOfCountries.push(obj); // code = 76
   obj = {world: "CA", name: "Canada", nameFr: "Canada"}; listOfCountries.push(obj); // code = 124
   obj = {world: "CN", name: "China", nameFr: "Chine"}; listOfCountries.push(obj); // code = 156
   obj = {world: "DK", name: "Denmark", nameFr: "Danemark"}; listOfCountries.push(obj); // code = 208
@@ -82,6 +83,7 @@ function createCurrencies() {
   let obj = null;
 
   obj = {world: "AU", iso: "AUD"}; listOfCurrencies.push(obj); // australia
+  obj = {world: "BR", iso: "BRL"}; listOfCurrencies.push(obj); // brasil
   obj = {world: "CA", iso: "CAD"}; listOfCurrencies.push(obj); // canada
   obj = {world: "CN", iso: "CNY"}; listOfCurrencies.push(obj); // china
   obj = {world: "DK", iso: "DKK"}; listOfCurrencies.push(obj); // denmark
@@ -96,8 +98,8 @@ function createCurrencies() {
   obj = {world: "RO", iso: "RON"}; listOfCurrencies.push(obj); // romania
   obj = {world: "RU", iso: "RUB"}; listOfCurrencies.push(obj); // russia
   obj = {world: "SE", iso: "SEK"}; listOfCurrencies.push(obj); // sweden
-  obj = {world: "TR", iso: "TRY"}; listOfCurrencies.push(obj); // turkey
   obj = {world: "TN", iso: "TND"}; listOfCurrencies.push(obj); // tunisia
+  obj = {world: "TR", iso: "TRY"}; listOfCurrencies.push(obj); // turkey
   obj = {world: "TW", iso: "TWD"}; listOfCurrencies.push(obj); // taiwan
   obj = {world: "US", iso: "USD"}; listOfCurrencies.push(obj); // united states
   obj = {world: "ZA", iso: "ZAR"}; listOfCurrencies.push(obj); // south afrika
@@ -385,7 +387,7 @@ function getRatio(currency) {
   return ratio;
 }
 
-//
+// tools
 
 function numberize(val) {
 
