@@ -26,38 +26,38 @@ function createCountries() {
 
   let obj = null;
 
-  obj = {world: "AU", name: "Australia", nameFr: "Australie"}; listOfCountries.push(obj); // code = 36
-  obj = {world: "AT", name: "Austria", nameFr: "Autriche"}; listOfCountries.push(obj); // code = 40
-  obj = {world: "BE", name: "Belgium", nameFr: "Belgique"}; listOfCountries.push(obj); // code = 56
-  obj = {world: "BR", name: "Brasil", nameFr: "Brésil"}; listOfCountries.push(obj); // code = 76
-  obj = {world: "CA", name: "Canada", nameFr: "Canada"}; listOfCountries.push(obj); // code = 124
-  obj = {world: "CN", name: "China", nameFr: "Chine"}; listOfCountries.push(obj); // code = 156
-  obj = {world: "DK", name: "Denmark", nameFr: "Danemark"}; listOfCountries.push(obj); // code = 208
-  obj = {world: "EE", name: "Estonia", nameFr: "Estonie"}; listOfCountries.push(obj); // code = 233
-  obj = {world: "FI", name: "Finland", nameFr: "Finlande"}; listOfCountries.push(obj); // code = 246
-  obj = {world: "FR", name: "France", nameFr: "France"}; listOfCountries.push(obj); // code = 250
-  obj = {world: "DE", name: "Germany", nameFr: "Allemagne"}; listOfCountries.push(obj); // code = 276
-  obj = {world: "GR", name: "Greece", nameFr: "Grèce"}; listOfCountries.push(obj); // code = 300
-  obj = {world: "HK", name: "Hong Kong", nameFr: "Hong Kong"}; listOfCountries.push(obj); // code = 344
-  obj = {world: "IN", name: "India", nameFr: "Inde"}; listOfCountries.push(obj); // code = 356
-  obj = {world: "IE", name: "Ireland", nameFr: "Irelande"}; listOfCountries.push(obj); // code = 372
-  obj = {world: "IT", name: "Italy", nameFr: "Italie"}; listOfCountries.push(obj); // code = 380
-  obj = {world: "LT", name: "Lithuania", nameFr: "Lituanie"}; listOfCountries.push(obj); // code = 440
-  obj = {world: "MX", name: "Mexico", nameFr: "Mexique"}; listOfCountries.push(obj); // code = 484
-  obj = {world: "NO", name: "Norway", nameFr: "Norvège"}; listOfCountries.push(obj); // code = 578
-  obj = {world: "PL", name: "Poland", nameFr: "Pologne"}; listOfCountries.push(obj); // code = 616
-  obj = {world: "PT", name: "Portugal", nameFr: "Portugal"}; listOfCountries.push(obj); // code = 620
-  obj = {world: "KR", name: "Korea", nameFr: "Corée"}; listOfCountries.push(obj); // code = 410
-  obj = {world: "RO", name: "Romania", nameFr: "Roumanie"}; listOfCountries.push(obj); // code = 642
-  obj = {world: "RU", name: "Russia", nameFr: "Russie"}; listOfCountries.push(obj); // code = 643
-  obj = {world: "ZA", name: "South Africa", nameFr: "Afrique du Sud"}; listOfCountries.push(obj); // code = 710
-  obj = {world: "ES", name: "Spain", nameFr: "Espagne"}; listOfCountries.push(obj); // code = 624
-  obj = {world: "SE", name: "Sweden", nameFr: "Suède"}; listOfCountries.push(obj); // code = 752
-  obj = {world: "TW", name: "Taiwan", nameFr: "Taiwan"}; listOfCountries.push(obj); // code = 158
-  obj = {world: "TN", name: "Tunisia", nameFr: "Tunisie"}; listOfCountries.push(obj); // code = 788
-  obj = {world: "TR", name: "Turkey", nameFr: "Turquie"}; listOfCountries.push(obj); // code = 792
-  obj = {world: "GB", name: "United Kingdom", nameFr: "Royaume-Uni"}; listOfCountries.push(obj); // code = 826
-  obj = {world: "US", name: "United States", nameFr: "États-Unis"}; listOfCountries.push(obj); // code = 840
+  obj = {world: "AU", /* AUD , 01 */ name: "Australia", nameFr: "Australie"}; listOfCountries.push(obj); // code = 36
+  obj = {world: "AT", /* EUR , 06 */ name: "Austria", nameFr: "Autriche"}; listOfCountries.push(obj); // code = 40
+  obj = {world: "BE", /* EUR , 06 */ name: "Belgium", nameFr: "Belgique"}; listOfCountries.push(obj); // code = 56
+  obj = {world: "BR", /* BRL , 02 */ name: "Brasil", nameFr: "Brésil"}; listOfCountries.push(obj); // code = 76
+  obj = {world: "CA", /* CAD , 03 */ name: "Canada", nameFr: "Canada"}; listOfCountries.push(obj); // code = 124
+  obj = {world: "CN", /* CNY , 04 */ name: "China", nameFr: "Chine"}; listOfCountries.push(obj); // code = 156
+  obj = {world: "DK", /* DKK , 05 */ name: "Denmark", nameFr: "Danemark"}; listOfCountries.push(obj); // code = 208
+  obj = {world: "EE", /* EUR , 06 */ name: "Estonia", nameFr: "Estonie"}; listOfCountries.push(obj); // code = 233
+  obj = {world: "FI", /* EUR , 06 */ name: "Finland", nameFr: "Finlande"}; listOfCountries.push(obj); // code = 246
+  obj = {world: "FR", /* EUR , 06 */ name: "France", nameFr: "France"}; listOfCountries.push(obj); // code = 250
+  obj = {world: "DE", /* EUR , 06 */ name: "Germany", nameFr: "Allemagne"}; listOfCountries.push(obj); // code = 276
+  obj = {world: "GR", /* EUR , 06 */ name: "Greece", nameFr: "Grèce"}; listOfCountries.push(obj); // code = 300
+  obj = {world: "HK", /* HKD , 08 */ name: "Hong Kong", nameFr: "Hong Kong"}; listOfCountries.push(obj); // code = 344
+  obj = {world: "IN", /* INR , 09 */ name: "India", nameFr: "Inde"}; listOfCountries.push(obj); // code = 356
+  obj = {world: "IE", /* EUR , 06 */ name: "Ireland", nameFr: "Irelande"}; listOfCountries.push(obj); // code = 372
+  obj = {world: "IT", /* EUR , 06 */ name: "Italy", nameFr: "Italie"}; listOfCountries.push(obj); // code = 380
+  obj = {world: "KR", /* KRW , 10 */ name: "Korea", nameFr: "Corée"}; listOfCountries.push(obj); // code = 410
+  obj = {world: "LT", /* EUR , 06 */ name: "Lithuania", nameFr: "Lituanie"}; listOfCountries.push(obj); // code = 440
+  obj = {world: "MX", /* MXN , 11 */ name: "Mexico", nameFr: "Mexique"}; listOfCountries.push(obj); // code = 484
+  obj = {world: "NO", /* NOK , 12 */ name: "Norway", nameFr: "Norvège"}; listOfCountries.push(obj); // code = 578
+  obj = {world: "PL", /* PLN , 13 */ name: "Poland", nameFr: "Pologne"}; listOfCountries.push(obj); // code = 616
+  obj = {world: "PT", /* EUR , 06 */ name: "Portugal", nameFr: "Portugal"}; listOfCountries.push(obj); // code = 620
+  obj = {world: "RO", /* RON , 14 */ name: "Romania", nameFr: "Roumanie"}; listOfCountries.push(obj); // code = 642
+  obj = {world: "RU", /* RUB , 15 */ name: "Russia", nameFr: "Russie"}; listOfCountries.push(obj); // code = 643
+  obj = {world: "ZA", /* ZAR , 21 */ name: "South Africa", nameFr: "Afrique du Sud"}; listOfCountries.push(obj); // code = 710
+  obj = {world: "ES", /* EUR , 06 */ name: "Spain", nameFr: "Espagne"}; listOfCountries.push(obj); // code = 624
+  obj = {world: "SE", /* SEK , 16 */ name: "Sweden", nameFr: "Suède"}; listOfCountries.push(obj); // code = 752
+  obj = {world: "TW", /* TWD , 19 */ name: "Taiwan", nameFr: "Taiwan"}; listOfCountries.push(obj); // code = 158
+  obj = {world: "TN", /* TND , 17 */ name: "Tunisia", nameFr: "Tunisie"}; listOfCountries.push(obj); // code = 788
+  obj = {world: "TR", /* TRY , 18 */ name: "Turkey", nameFr: "Turquie"}; listOfCountries.push(obj); // code = 792
+  obj = {world: "GB", /* GBP , 07 */ name: "United Kingdom", nameFr: "Royaume-Uni"}; listOfCountries.push(obj); // code = 826
+  obj = {world: "US", /* USD , 20 */ name: "United States", nameFr: "États-Unis"}; listOfCountries.push(obj); // code = 840
 
   // fill countries
 
@@ -342,7 +342,7 @@ const fetchRates = async (listOfRates) => {
   let data = await res.json();
   let online = "OFF";
 
-  if (data.success == true) {
+  if (data.success) {
 
     let timestamp = data.timestamp;
 
@@ -354,7 +354,7 @@ const fetchRates = async (listOfRates) => {
       let iso = rate["iso"];
 
       ratio = 1. / data.rates[iso];
-      rate["ratio"] = ratio
+      rate["ratio"] = ratio;
     }
 
     online = date.toLocaleString();
@@ -387,14 +387,14 @@ function getRatio(currency) {
   return ratio;
 }
 
-// tools
+// interspace number
 
 function numberize(val) {
 
     return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
 
-//
+// unspace number
 
 function unspacize(val) {
 
